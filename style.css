@@ -7,6 +7,7 @@ body {
 
 
 h1 {
+    animation: color-change 5s infinite;
     color: #00a800; /* Цвет заголовка */
     font-size: 24px; /* Размер шрифта в пунктах */
     font-family: Georgia, serif; /* Семейство шрифтов */
@@ -26,10 +27,7 @@ p {
     }
   
     100% {
-      color: blue;
+      color: rgb(0, 255, 68);
     }
 }
 
-h1 {
-    animation: color-change 3s infinite;
-}
